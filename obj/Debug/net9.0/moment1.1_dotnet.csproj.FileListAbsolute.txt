@@ -95,3 +95,4 @@ C:\temp\moment1.1_dotnet\obj\Debug\net9.0\refint\moment1.1_dotnet.dll
 C:\temp\moment1.1_dotnet\obj\Debug\net9.0\moment1.1_dotnet.pdb
 C:\temp\moment1.1_dotnet\obj\Debug\net9.0\moment1.1_dotnet.genruntimeconfig.cache
 C:\temp\moment1.1_dotnet\obj\Debug\net9.0\ref\moment1.1_dotnet.dll
+C:\temp\moment1.1_dotnet\obj\Debug\net9.0\moment1.1_dotnet.sourcelink.json

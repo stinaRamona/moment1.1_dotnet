@@ -1,0 +1,19 @@
+﻿@page
+@model MyApp.Namespace.RazorModel
+@{
+    ViewData["Title"] = "Razor"; 
+} 
+
+<h1>@ViewData["Title"]</h1>
+
+<b>Datum och klockslag:</b> <p>@DateTime.Now</p>
+
+
+<!-- om det är fredag -->
+
+@if(DateTime.Today.DayOfWeek == DayOfWeek.Friday) {
+    <p>Idag är det fredag!</p>
+    } else {
+        <p>Det är inte fredag Idag :(</p>
+    }
+
