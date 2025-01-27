@@ -17,3 +17,28 @@
         <p>Det är inte fredag Idag :(</p>
     }
 
+<b>Kurser jag läst:</b>
+@{
+    /*Skapar en lista och lägger till kurser i listan*/
+    List<string> Courses = new List<string>(); 
+    
+    Courses.Add("Webbutveckling I"); 
+    Courses.Add("Javascript I"); 
+    Courses.Add("Webbanvändbarhet"); 
+    Courses.Add("Grafisk teknik för webb"); 
+    Courses.Add("Databaser"); 
+    Courses.Add("Frontend-baserad utveckling");
+    Courses.Add("Backend-baserad utveckling"); 
+    Courses.Add("Programmering i TypeScript"); 
+    Courses.Add("Projektledning"); 
+    Courses.Add("Programmering i C#.NET"); 
+    Courses.Add("Fullstack-utveckling med ramverk");
+    Courses.Add("Webbutveckling för WordPress"); 
+
+    foreach(string course in Courses) {
+        <ul>
+            <li>@course</li>
+        </ul>
+    }
+}
+
