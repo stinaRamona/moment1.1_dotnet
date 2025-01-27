@@ -1,14 +1,18 @@
 
 body {
   margin: 0; 
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+p, b, li, a, article {
+  font-size: 1.25em; 
 }
 
 /*Allmän style*/
 main {
   width: 1000px; 
   max-width: 100%; 
-  margin: 0 auto; 
+  margin: 0 auto;
 } 
 
 article {
@@ -17,14 +21,12 @@ article {
 
 /*Footer*/
 footer {
-  border: 2px solid #454545; 
   bottom: 0; 
-  padding: 1em; 
+  padding: 2em; 
   text-align: center;
   position: fixed; 
-  width: 95%; 
-  margin-bottom: 2%; 
-  margin-left: 1.5%; 
+  width: 100%;
+  background-color:  rgb(255, 136, 56);
 } 
 
 /*navigering*/
@@ -33,23 +35,68 @@ nav {
   flex-direction: column;
 } 
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: rgb(255, 136, 56);
+  height: 100%;  
+  position: fixed; 
+  overflow: auto;
 }
 
-li a {
+nav li a {
   display: block;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+} 
+
+nav li a:hover {
+  background-color: rgb(177, 94, 39);
+  color: white;
 }
 
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
+/*header*/
+#logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 2em; 
+  background-color: rgb(255, 230, 213);
+}
+
+.navbar-brand {
+  color: rgb(255, 136, 56); 
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+#headertime {
+  font-size: 1.25em;
+  border: 1px solid #454545; 
+  padding: 0.5em; 
+}  
+
+/*knapp*/
+button {
+  background-color: rgb(177, 94, 39);
   color: white;
+  font-size: 1.25em;
+  border: none; 
+  padding: 0.5em; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: rgb(131, 69, 27);
+} 
+
+/*hemligt meddelande*/
+#secretMsg {
+  font-size: 1.25em;
 }
