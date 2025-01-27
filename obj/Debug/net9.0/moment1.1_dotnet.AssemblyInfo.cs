@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("moment1.1_dotnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc659135fa537df78b0a1aa241daf68216c2a503")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a84df8a5e55e1f0dcf1305595fb52789d9dcc3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("moment1.1_dotnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("moment1.1_dotnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

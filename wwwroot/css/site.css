@@ -10,9 +10,10 @@ p, b, li, a, article {
 
 /*Allmän style*/
 main {
-  width: 1000px; 
+  width: 650px; 
   max-width: 100%; 
   margin: 0 auto;
+
 } 
 
 article {
@@ -99,4 +100,20 @@ button:hover {
 /*hemligt meddelande*/
 #secretMsg {
   font-size: 1.25em;
+}
+
+/*responsivitet för små skärmar*/
+@media(max-width: 1074px) {
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    position: relative; 
+    width: 100%; 
+  }
+
+  nav li {
+    display: inline-block;
+  } 
 }
